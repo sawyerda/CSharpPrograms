@@ -3,7 +3,7 @@ using System;
 namespace PolymorphismApplication {
 
 	class Shape {
-		protexted int width, height;
+		protec	ted int width, height;
 
 		public Shape(int a = 0, int b = 0){
 			width = a;
@@ -44,7 +44,7 @@ namespace PolymorphismApplication {
 			Rectangle r = new Rectangle(10, 7);
 			Triangle t = new Triangle(10, 5);
 
-			c.CallArea(r)
+			c.CallArea(r);		
 			c.CallArea(t);
 			Console.ReadKey();
 		}
